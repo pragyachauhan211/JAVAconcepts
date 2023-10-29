@@ -12,7 +12,7 @@ number = originalNumber;
 while (number != 0)
 {
     remainder = number % 10;
-    result = (int) (result+Math.pow(remainder, 3));
+    result += (int) (result+Math.pow(remainder, 3));
     number = number/ 10;  
 }
 
