@@ -25,8 +25,8 @@ public class pangram {
 
 	public static void main(String[] args) {
 		//String s = "abcdefghijklmSGFGnopqrstuvwxyz";
-		String s = "SGFGnopqrstuvwxyzabcdefghijklm";
-		//String s = "abc";
+		//String s = "SGFGnopqrstuvwxyzabcdefghijklm";
+		String s = "abc";
 		abc(s);
 
 	}
