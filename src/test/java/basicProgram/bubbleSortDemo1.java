@@ -20,28 +20,23 @@ class bubbleSortDemo1 {
 	//reading array elements from the user   
 	array[i]=sc.nextInt();  
 	}  
-//loop to access each array element
+	//loop to access each array element
 
 for (int i = 0; i < n-1; i++)
 {
 //loop to compare array elements
-
 for (int j = 0; j < n-i-1; j++)
 {
 //compare two adjacent elements
-
 //change > to < to sort in descending order
  
 if (array[j] < array[j + 1]) {
 
 //swapping occurs if elements
-
 //are not in the intended order
 
 int temp = array[j];
-
 array[j] = array[j + 1];
-
 array[j + 1] = temp;
 
 }

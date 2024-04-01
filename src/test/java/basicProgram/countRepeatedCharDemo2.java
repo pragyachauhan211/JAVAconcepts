@@ -4,7 +4,7 @@ public class countRepeatedCharDemo2 {
 	public void duplicate()
 	{
 		int counter=0;
-		String s = "sfsf ";
+		String s = "My name is Pragya";
 		s = s.toLowerCase();
 	    s = s.replaceAll(" ", "");
 	    

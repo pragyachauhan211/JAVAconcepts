@@ -15,7 +15,7 @@ public class throwsDemo1 {
 	}
 
 	public static void main(String[] args) {
-		throwsDemo1.check(21);
+		throwsDemo1.check(4);
 
 	}
 

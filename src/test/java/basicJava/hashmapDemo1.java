@@ -17,6 +17,7 @@ public class hashmapDemo1 {
 		for(@SuppressWarnings("unused") Map.Entry m: map.entrySet());
 		{
 			System.out.println(map);
+			
 		}
 		
 	}

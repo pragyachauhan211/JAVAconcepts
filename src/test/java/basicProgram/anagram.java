@@ -5,6 +5,7 @@ import java.util.Arrays;
 public class anagram {
 	
 	public static boolean abc(String s1, String s2) {
+		
 		String s11 = s1;
 		String s22 = s2;
 		

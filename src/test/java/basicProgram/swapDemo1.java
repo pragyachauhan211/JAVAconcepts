@@ -14,7 +14,7 @@ public class swapDemo1 {
 		System.out.println("Enter second value ");
 		int b = s.nextInt();
 		
-		a = a+b;// 2+3 = 5
+		a = a+b;// 2+3 = 5(a)
 		b=a-b;// 5-3=2(b)
 		a=a-b;// 5-2=3(a)
 		System.out.println("after swapping value of a is "+a);
