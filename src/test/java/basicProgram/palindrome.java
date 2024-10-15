@@ -9,7 +9,7 @@ public class palindrome {
 	{
 		for(int i=0; i<s.length(); i++)
 		{
-			s2 = s2+s.charAt(i);
+			s2 = s.charAt(i)+s2;
 		}
 		System.out.println(s2);
 		
