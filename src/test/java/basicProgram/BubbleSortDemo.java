@@ -2,7 +2,8 @@ package basicProgram;
 
 import java.util.Scanner;
 
-class bubbleSortDemo1 {
+class BubbleSortDemo 
+{
 
 	public void count() {
 	int n;
@@ -30,7 +31,7 @@ for (int j = 0; j < n-i-1; j++)
 //compare two adjacent elements
 //change > to < to sort in descending order
  
-if (array[j] < array[j + 1]) {
+if (array[j] > array[j + 1]) {
 
 //swapping occurs if elements
 //are not in the intended order
@@ -54,7 +55,7 @@ public static void main(String args[])
 
 {
 
-	bubbleSortDemo1 p = new bubbleSortDemo1();
+	BubbleSortDemo p = new BubbleSortDemo();
 	p.count();
 
 }

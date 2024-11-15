@@ -13,7 +13,7 @@ public class pangram {
 			if(!s.contains(String.valueOf(ch)))
 			{
 				flag=false;	
-				 break;
+				break;
 			}
 		}
 			           
@@ -24,9 +24,8 @@ public class pangram {
 	}
 
 	public static void main(String[] args) {
-		//String s = "abcdefghijklmSGFGnopqrstuvwxyz";
-		//String s = "SGFGnopqrstuvwxyzabcdefghijklm";
-		String s = "abc";
+		// String s = "abc";
+		String s = "abcdefghi adfjklmnopqrstuvwxyzsf";
 		abc(s);
 
 	}

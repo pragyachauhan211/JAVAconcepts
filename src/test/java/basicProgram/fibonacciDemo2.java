@@ -13,10 +13,9 @@ public class fibonacciDemo2 {
 		counter = s.nextInt();
 		for(int i=1; i<=counter;i++)
 		{
-			b = a+b;
-			a= b-a;
-			
-			System.out.println(i+" is "+a);
+			b = a + b;
+			a = b - a;
+			System.out.println(i + " is " + a);
 		}
 		
 	}

@@ -13,7 +13,6 @@ public class leapYear1 {
 				{
 					return true;
 				}
-			
 			}
 			return true;
 		}
@@ -22,7 +21,7 @@ public class leapYear1 {
 
 	public static void main(String[] args) {
 		
-		if(year(600))
+		if(year(2401))
 		System.out.println("It is a leap year");
 		else
 			System.out.println("It is not a leap year");

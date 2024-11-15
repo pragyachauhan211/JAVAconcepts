@@ -1,6 +1,6 @@
 package basicProgram;
 
-public class countCharDemo1 {
+public class countCharDemo {
 	 String string = "The best ";   
 	 int count = 0;   
 	 
@@ -8,17 +8,15 @@ public class countCharDemo1 {
 	{
  	  for(int i = 0;i<string.length();i++)	
 	  {
-		  if(string.charAt(i)!=' ')
-		  
-			  count++; 
-		  
+		  if(string.charAt(i)!=' ')		  
+			  count++; 		  
 	  }
 	  System.out.println(count);
 	}
 
 	public static void main(String[] args) {
 		 
-		countCharDemo1 cd = new countCharDemo1();
+		countCharDemo cd = new countCharDemo();
 		cd.count();
 	            
 	      
