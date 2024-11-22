@@ -10,7 +10,7 @@ class countRepeatedWordsDemo5 {
         HashMap<String, Integer> charCountMap
             = new HashMap<String, Integer>();
  
-        // Converting given string to char array
+        // Converting given string to string array
         String[] strArray = inputString.split("\\s+");
  
         // checking each char of strArray

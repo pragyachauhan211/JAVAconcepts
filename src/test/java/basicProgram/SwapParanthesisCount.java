@@ -44,14 +44,18 @@ public class SwapParanthesisCount {
     	// it will swap 3,4th index - count 1
     	// then it will swap 5,6th index - count 2
     	// so it will become - [][][]
-        //String s = "[]][][";
-        //System.out.println(swapCount(s) );
+        String s = "[]][][";
+        System.out.println(swapCount(s) );
         // It will not swap anything, as it is already paired
         // hence swap count will be 0
-        //s = "[[][]]";
-       // System.out.println(swapCount(s));
+        s = "[[][]]";
+        System.out.println(swapCount(s));
         
-        String s = "[[]]][[]]][]";
+        s = "[[]]][[]]][]";
         System.out.println(swapCount(s) );
+        
+        s = "]]]]]]";
+        System.out.println(swapCount(s) );
+        
     }
 }

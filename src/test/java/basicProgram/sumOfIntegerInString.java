@@ -2,12 +2,10 @@ package basicProgram;
 
 public class sumOfIntegerInString {
 	
-	String s1 = "sdgfs245fgdfg";
+	String s1 = "sdgfs...245fgdfg";
 	
 	public void sumInt()
-	{
-		s1 = s1.replaceAll("[^0-9]", " "); 
-	        
+	{    
 	        char[] c = s1.toCharArray();
 	        int sum = 0;
 	        for (int i = 0; i < c.length; i++) {

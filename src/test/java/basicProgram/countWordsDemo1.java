@@ -17,7 +17,8 @@ public class countWordsDemo1 {
        // expression
        
        String[] words = str.split("\\s+");
-       System.out.println(Arrays.toString(words));
+       System.out.println(words.toString()); // it will not print string array
+       System.out.println(Arrays.toString(words)); // it will print string array elements correctly
         
        // Return number of words
        // in the given string

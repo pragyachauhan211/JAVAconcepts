@@ -1,6 +1,6 @@
 package basicProgram;
 
-public class TwoArrayComparison {
+public class If2ArrayElementsDuplicateOrNot {
 
 	public void abc() {
 		int[] array1 = { 6,1, 2, 3, 4, 5 };
@@ -24,7 +24,7 @@ public class TwoArrayComparison {
 	}
 
 	public static void main(String[] args) {
-		TwoArrayComparison a = new TwoArrayComparison();
+		If2ArrayElementsDuplicateOrNot a = new If2ArrayElementsDuplicateOrNot();
 		a.abc();
 	}
 }
