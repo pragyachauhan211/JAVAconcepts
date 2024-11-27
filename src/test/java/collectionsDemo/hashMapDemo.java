@@ -15,22 +15,22 @@ public class hashMapDemo {
 		hList.put(9, "ADFG");
 		hList.put(2, "wdfg");
 		
-		Iterator i = hList.keySet().iterator();
+		Iterator<Integer> i = hList.keySet().iterator();
 		
 		while(i.hasNext())
 		{
-			int key = (Integer) i.next();
+			int key = i.next();
 			System.out.println(key+" "+hList.get(key));
 		}
 		
 		System.out.println("---------------");
 		
 		TreeMap<Integer, String> tList = new TreeMap<Integer, String>(hList);
-		Iterator i2 = tList.keySet().iterator();
+		Iterator<Integer> i2 = tList.keySet().iterator();
 		
 		while(i2.hasNext())
 		{
-			int key = (Integer) i2.next();
+			int key = i2.next();
 			System.out.println(key+" "+tList.get(key));
 		}
 		
