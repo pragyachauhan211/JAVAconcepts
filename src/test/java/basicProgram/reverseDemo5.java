@@ -1,5 +1,5 @@
 package basicProgram;
-
+// reverse a string by preserving it's space
 public class reverseDemo5 {
 	
 	public void reverse()

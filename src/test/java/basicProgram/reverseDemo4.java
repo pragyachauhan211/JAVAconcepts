@@ -1,5 +1,5 @@
 package basicProgram;
-
+// reverse a number
 public class reverseDemo4 {
 	int result=0,remainder = 0;
 	

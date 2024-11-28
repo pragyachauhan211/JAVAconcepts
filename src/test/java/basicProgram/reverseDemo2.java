@@ -1,5 +1,5 @@
 package basicProgram;
-
+// reverse a string using StringBuilder method
 public class reverseDemo2 {
 	String p = "Pragya is very Good";
 	

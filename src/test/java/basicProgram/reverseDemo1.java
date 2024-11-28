@@ -1,5 +1,5 @@
 package basicProgram;
-
+// reverse a string with logic without using inbuilt method
 public class reverseDemo1 {
 	
 	String str = "Pragya", str1="";
