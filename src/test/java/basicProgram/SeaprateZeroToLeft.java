@@ -2,28 +2,23 @@ package basicProgram;
 
 import java.util.Arrays;
 
-public class SeaprateZeroFromNonZero {
+public class SeaprateZeroToLeft {
 
 	static void moveZerosToEnd(int inputArray[])
     {
         //Initializing counter to 0
- 
         int counter = 0;
  
         //Traversing inputArray from left to right
- 
         for (int i = 0; i < inputArray.length; i++)
         {
             //If inputArray[i] is non-zero
- 
             if(inputArray[i] != 0)
             {
                 //Assigning inputArray[i] to inputArray[counter]
- 
                 inputArray[counter] = inputArray[i];
- 
+                
                 //Incrementing the counter by 1
- 
                 counter++;
             }
         }

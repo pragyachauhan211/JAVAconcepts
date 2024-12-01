@@ -2,22 +2,33 @@ package basicProgram;
 
 import java.util.Arrays;
 
+// left shift
 public class Practice {
 	
 	public void shiftRotate()
 	{
-		int[] arr = {12, 0, 7, 0, 8, 0, 3};
+		int arr[] = {0,3,2,1,5,0,3,0};
+		int counter=0;
+		for(int i=0; i<arr.length; i++)
+		{	
+			if(arr[i]!=0)
+			{
+				arr[counter]=arr[i];
+				counter++;
+			}
+		}
 		
-		for(int i=0; i<arr.length/2; i++)
+		while(counter<arr.length)
 		{
-			int temp = arr[i];
-			arr[i] = arr[arr.length-i-1];
-			arr[arr.length-i-1] = temp;
-		}		
+			arr[counter]=0;
+			counter++;
+		}
+		
 		System.out.println(Arrays.toString(arr));
 	}
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		Practice p = new Practice();
 		p.shiftRotate();
 	}
