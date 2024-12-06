@@ -8,20 +8,22 @@ public class SeaprateNegativeToLeft {
 		 
 	        // Create an empty array to store result
 	        int[] temp = new int[n];
-	        int idx = 0;
+	        int counter = 0;
 
 	        // First fill non-negative elements into the 
 	        // temporary array
-	        for (int i = 0; i < n; i++) {
+	        for (int i = 0; i < n; i++) 
+	        {
 	            if (arr[i] <= 0) 
-	                temp[idx++] = arr[i];
+	                temp[counter++] = arr[i];
 	        }
 
 	        // Now fill negative elements into the 
 	        // temporary array
-	        for (int i = 0; i < n; i++) {
+	        for (int i = 0; i < n; i++) 
+	        {
 	            if (arr[i] > 0) 
-	                temp[idx++] = arr[i];
+	                temp[counter++] = arr[i];
 	        }
 
 	        // copy the elements from temp to arr

@@ -1,6 +1,6 @@
 package basicProgram;
 
-public class stringDemo {
+public class StringDemo1 {
 	
 	public void abc()
 	{
@@ -59,7 +59,7 @@ public class stringDemo {
 
 	public static void main(String[] args) {
 
-		stringDemo sd = new stringDemo();
+		StringDemo1 sd = new StringDemo1();
 		sd.abc();
 	}
 

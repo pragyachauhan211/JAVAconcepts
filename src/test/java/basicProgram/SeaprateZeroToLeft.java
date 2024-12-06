@@ -7,10 +7,10 @@ public class SeaprateZeroToLeft {
 	static void moveZerosToEnd(int inputArray[])
     {
         //Initializing counter to 0
-        int counter = 0;
+        int counter = inputArray.length-1;
  
         //Traversing inputArray from left to right
-        for (int i = 0; i < inputArray.length; i++)
+        for (int i=inputArray.length-1; i>0; i--)
         {
             //If inputArray[i] is non-zero
             if(inputArray[i] != 0)
@@ -19,16 +19,15 @@ public class SeaprateZeroToLeft {
                 inputArray[counter] = inputArray[i];
                 
                 //Incrementing the counter by 1
-                counter++;
+                counter--;
             }
         }
  
         //Assigning zero to remaining elements
-        while (counter < inputArray.length)
+        while (counter >= 0)
         {
             inputArray[counter] = 0;
- 
-            counter++;
+            counter--;
         }
  
         System.out.println(Arrays.toString(inputArray));

@@ -10,9 +10,10 @@ public class reverseDemo5 {
 	      StringBuffer sb= new StringBuffer(str);
 	      sb.reverse();
 	      for(int i=0 ; i<str.length(); i++){
-	      if(str.charAt(i)== ' '){
+	      if(str.charAt(i)== ' ')
+	      {
 	         sb.insert(i, " ");
-	 	      }
+	 	  }
 	   }
 	      
 	      for(int i=0 ; i<str.length(); i++){
