@@ -20,8 +20,7 @@ public class reverseDemo5 {
 	    	  if(sb.charAt(i)== ' '){ // check if reverse string has any space
 			        if(str.charAt(i)!=' ') // check if original string is not having any space
 			        {
-			        	sb.deleteCharAt(i); // remove space from reverse string
-			        	
+			        	sb.deleteCharAt(i); // remove space from reverse string			        	
 			        }
 			 	      }
 	      }

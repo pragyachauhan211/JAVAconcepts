@@ -17,10 +17,9 @@ public class SeaprateZeroToRight {
             {
                 //Assigning inputArray[i] to inputArray[counter]
                 inputArray[counter] = inputArray[i];
+                counter++;
             }
-            else {
-            	counter++;
-            }
+		
         }
  		      
         //Assigning zero to remaining elements

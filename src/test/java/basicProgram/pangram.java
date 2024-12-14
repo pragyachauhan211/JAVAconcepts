@@ -3,8 +3,7 @@ package basicProgram;
 public class pangram {
 	
 	public static void abc(String s)
-	{
-		
+	{	
 		boolean flag=true;
 		s = s.toLowerCase();
 		
@@ -29,5 +28,4 @@ public class pangram {
 		abc(s);
 
 	}
-
 }
