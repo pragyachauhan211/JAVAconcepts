@@ -5,7 +5,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 // left 
-public class Practice {
+public class StringDemo3 {
 	
 	public void count() 
 	{
@@ -34,7 +34,7 @@ public class Practice {
 	
 
 	public static void main(String[] args) {
-		Practice p = new Practice();
+		StringDemo3 p = new StringDemo3();
 		p.count();
 	}
 

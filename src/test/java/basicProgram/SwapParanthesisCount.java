@@ -57,5 +57,8 @@ public class SwapParanthesisCount {
         s = "]]]]]]";
         System.out.println(swapCount(s) );
         
+        s = "[][]]][][[[]";
+        System.out.println(swapCount(s) );
+        
     }
 }

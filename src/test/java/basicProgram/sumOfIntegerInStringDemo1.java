@@ -1,6 +1,6 @@
 package basicProgram;
 
-public class sumOfIntegerInString {
+public class sumOfIntegerInStringDemo1 {
 	
 	String s1 = "sdgfs...245fgdfg";
 	
@@ -21,7 +21,7 @@ public class sumOfIntegerInString {
 	}
 
 	public static void main(String[] args) {
-		sumOfIntegerInString sum = new sumOfIntegerInString();
+		sumOfIntegerInStringDemo1 sum = new sumOfIntegerInStringDemo1();
 		sum.sumInt();
 		
 
