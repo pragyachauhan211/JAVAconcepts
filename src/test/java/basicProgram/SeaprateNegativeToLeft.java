@@ -1,5 +1,7 @@
 package basicProgram;
 
+import java.util.Arrays;
+
 public class SeaprateNegativeToLeft {
 
 	 static void rearrange(int[] arr) {
@@ -25,7 +27,8 @@ public class SeaprateNegativeToLeft {
 	            if (arr[i] > 0) 
 	                temp[counter++] = arr[i];
 	        }
-
+	        
+	        //System.out.println(Arrays.toString(temp));
 	        // copy the elements from temp to arr
 	        System.arraycopy(temp, 0, arr, 0, n);
 	 }

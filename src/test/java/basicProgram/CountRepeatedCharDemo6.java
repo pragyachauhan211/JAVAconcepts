@@ -74,7 +74,8 @@ class CountRepeatedCharDemo6 {
 	public static void main(String args[]) 
 	{	
 		CountRepeatedCharDemo6 obj = new CountRepeatedCharDemo6();
-		obj.hashCount("Teeeeeeeeeesst opppss");
+		//obj.hashCount("Teeeeeeeeeesst opppss");
+		obj.hashCount("my name is pragya kumari");
 		obj.maxCount(); // count maximum occurrence of character
 		obj.minCount(); // count minimum occurrence of character
 	}

@@ -22,11 +22,9 @@ public class StringDemo3 {
 			{
 				count++;
 			}
-			else
-			{		
-				s= s.replaceAll(s, "");
-				System.out.println();
-			}
+			/*
+			 * else { s= s.replaceAll(s, ""); System.out.println(); }
+			 */
 			
 		}
 		System.out.println(count);

@@ -1,11 +1,10 @@
 package basicProgram;
 
-import java.util.Arrays;
+import java.util.regex.Pattern;
 
 // left 
 public class sumOfIntegerInStringDemo2 {
-	int[] a = {-5,0,2,1,-6,7,9,0,4};
-	int n=4;
+	
 	
 	public void count() 
 	{
@@ -16,9 +15,11 @@ public class sumOfIntegerInStringDemo2 {
 		
 		for(String s : newInput)
 		{
-			if(s.matches("[a-z0-9]+"))
+			if(Pattern.matches("[a-z0-9]+", s))
+			//if(s.matches("[a-z0-9]+"))
 			{
-				if(s.matches("[a-z]+"))
+				if(Pattern.matches("[a-z]+", s))
+				//if(s.matches("[a-z]+"))
 				{
 					continue;
 				}
