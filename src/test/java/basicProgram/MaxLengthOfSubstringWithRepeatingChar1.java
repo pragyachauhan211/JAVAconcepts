@@ -1,6 +1,6 @@
 package basicProgram;
 
-public class MaxLengthOfSubstringWithRepeatingChar {
+public class MaxLengthOfSubstringWithRepeatingChar1 {
 
 	public void shift() {
 		String name = "my name is pragya kumari";
@@ -30,7 +30,7 @@ public class MaxLengthOfSubstringWithRepeatingChar {
 	}
 
 	public static void main(String[] args) {
-		MaxLengthOfSubstringWithRepeatingChar p = new MaxLengthOfSubstringWithRepeatingChar();
+		MaxLengthOfSubstringWithRepeatingChar1 p = new MaxLengthOfSubstringWithRepeatingChar1();
 		p.shift();
 
 	}

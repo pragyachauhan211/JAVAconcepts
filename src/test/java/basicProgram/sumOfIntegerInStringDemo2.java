@@ -23,7 +23,8 @@ public class sumOfIntegerInStringDemo2 {
 				{
 					continue;
 				}
-				s = s.replaceAll("[a-zA-Z]", "");	
+				s = s.replaceAll("[a-zA-Z]", "");
+				System.out.println(s);
 				num = num + Integer.parseInt(String.valueOf(s));
 			}
 		}
