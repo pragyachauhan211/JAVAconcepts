@@ -15,10 +15,10 @@ public class StringDemo7 {
 	{
 		for(int i=0; i<c.length; i++)
 		{
-			c[0] = Character.toUpperCase(c[0]);
+			c[0] = Character.toUpperCase(c[0]); // upper case to first letter
 			if(c[i]==' ')
 			{
-				c[i+1] = Character.toUpperCase(c[i+1]);
+				c[i+1] = Character.toUpperCase(c[i+1]); // upper case to first letter after every space
 			}
 		}
 		System.out.println(String.valueOf(c));
