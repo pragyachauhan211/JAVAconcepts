@@ -1,6 +1,6 @@
 package basicProgram;
 
-public class practice1 {
+public class sumOfIntegerInDemo3 {
    // the sum of 2 array should be 17
     public void leap() {
         int[] arr = {6, 8, 11, 6, 7, 10, 18};
@@ -23,7 +23,7 @@ public class practice1 {
     }
 
     public static void main(String[] args) {
-        practice1 p = new practice1();
+        sumOfIntegerInDemo3 p = new sumOfIntegerInDemo3();
         p.leap();
     }
 }
