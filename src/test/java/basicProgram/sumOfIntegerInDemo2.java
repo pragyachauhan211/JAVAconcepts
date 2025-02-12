@@ -3,7 +3,7 @@ package basicProgram;
 import java.util.regex.Pattern;
 
 // left 
-public class sumOfIntegerInStringDemo2 {
+public class sumOfIntegerInDemo2 {
 	
 	
 	public void count() 
@@ -35,7 +35,7 @@ public class sumOfIntegerInStringDemo2 {
 	
 
 	public static void main(String[] args) {
-		sumOfIntegerInStringDemo2 p = new sumOfIntegerInStringDemo2();
+		sumOfIntegerInDemo2 p = new sumOfIntegerInDemo2();
 		p.count();
 	}
 
