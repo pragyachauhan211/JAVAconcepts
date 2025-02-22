@@ -4,7 +4,7 @@ public abstract class absB implements interfaceA{
 
 	public void a()
 	{		
-	System.out.println("I am A.");
+	System.out.println("I am A");
 	}
 	
 	public void b()
