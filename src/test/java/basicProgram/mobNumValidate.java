@@ -16,10 +16,10 @@ public class mobNumValidate {
         Pattern pattern = Pattern.compile(s);
 
         // create a matcher object
-        Matcher matcher = pattern.matcher(num);
+        Matcher matcher1 = pattern.matcher(num);
 
         // return whether the mobile number matches the patters
-        return  matcher.matches();
+        return  matcher1.matches();
 
     }
 
